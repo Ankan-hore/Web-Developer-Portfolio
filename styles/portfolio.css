@@ -33,6 +33,10 @@
 
 }
 
+.text-center{
+    text-align: center;
+}
+
 /* header */
 
 .header{
@@ -108,7 +112,7 @@ nav li a{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    
 }
 .about-items{
     display: flex;
@@ -118,6 +122,10 @@ nav li a{
 .item-description{
     font-weight: bold;
 }
+
+/* .skills{
+    text-align: center;
+} */
 
 
 
@@ -131,3 +139,20 @@ main{
     margin: 0 auto;
 }
 
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* skkills section style */
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
